@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+     height: 100%; 
+    }
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: url(assets/erste_bank1.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.master_wrapper {
+    width: 40vw !important;
+    max-width: 40vw !important;
+    margin: 0 !important;
+    position: absolute;
+    right: 2rem;
+    bottom: 6rem;
+}
+
+
+
+
+
+

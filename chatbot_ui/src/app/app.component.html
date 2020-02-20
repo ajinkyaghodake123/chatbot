@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!--<div style="text-align:center">
+  <h2 style="color:white">
+    Welcome, I am BOTMAN  </h2>
+</div>-->
+<!-- <div>
+  <button *ngIf="enableEdit" (click)="enableEdit=false" routerLink="/req">Chating app</button>
+</div><br> -->
+
+<div *ngIf="isDisabled">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="example-button-row" class="chat_button">
+  <button mat-fab style="background-color: red" (click)="enableEdit()" routerLink="/req">{{start}}</button>
+</div>
+
+
+
+

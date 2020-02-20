@@ -1,0 +1,43 @@
+{
+  "getStartedOptions": [
+    {
+      "buttonName": "My Account",
+      "buttonAction": "customeCareButtonMethod()"
+    },
+    {
+      "buttonName": "Apply",
+      "buttonAction": "customeCareButtonMethod()"
+    },
+    {
+      "buttonName": "Customer Care",
+      "buttonAction": "customeCareButtonMethod()"
+    },
+    {
+      "buttonName": "Erste Products",
+      "buttonAction": "ersteProductButtons()"
+    }
+  ],
+
+  "myAccountsOptions" : [
+    {
+      "buttonName": "Account Balance",
+      "buttonAction": "getAccountBalance"
+    },
+    {
+      "buttonName": "AccountStatement",
+      "buttonAction": "getAccountStatement()"
+    },
+    {
+      "buttonName": "Mini Statement",
+      "buttonAction": "getMiniStatement()"
+    },
+    {
+      "buttonName": "Credit Card Balance",
+      "buttonAction": "getCreditCardBalance()"
+    },
+    {
+      "buttonName": "Credit Card Limit",
+      "buttonAction": "getCreditcardLimit()"
+    }
+  ]
+}

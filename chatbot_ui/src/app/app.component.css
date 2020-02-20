@@ -1,0 +1,18 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.position{
+  text-align: right;
+    margin-top: 40%;
+    margin-right: 15%;
+    clear: both;
+    position: relative;
+}
+
+.chat_button {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
